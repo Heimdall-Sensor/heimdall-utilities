@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package>
+  <name>heimdall_utilities</name>
+  <version>1.0.0</version>
+  <description>The heimdall_utilities package for utility (library) stuff.</description>
+
+  <maintainer email="info@heimdall-sensor.org">Enacer</maintainer>
+  <author>Christof Oost</author>
+  <author>Amir Shantia</author>
+  <author>Ron Snijders</author>
+  <author>Egbert van der Wal</author>
+
+  <license>AGPL-3.0</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>std_msgs</run_depend>
+
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+  </export>
+</package>
